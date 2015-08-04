@@ -1,0 +1,47 @@
+<h1>Show User Record</h1>
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+ 
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @user.password %>
+</p>
+
+<p>
+  <strong>ID:</strong>
+  <%= @user.id %>
+</p>
+
+<table style="background:#81BEF7">
+  <tr style="font-color:red>
+    <th width="50">Article ID<th>
+    <th width="50">Title</th>
+    <th width="50">Text</th>
+    <th colspan="3"></th>
+  </tr>
+ 
+  <% @show_article.each do |article| %>
+    <tr>
+      <td width="100" style="color:red;"><%= article.id %></td>
+      <td width="150"><%= article.title %></td>
+      <td width="150"><%= article.text %></td>
+      <td width="50"><%= link_to 'Show', article_path(article) %></td>
+      <td width="50"><%= link_to 'Edit', edit_article_path(article) %></td>
+      <td width="80"><%= link_to 'Destroy', article_path(article),
+                    method: :delete, data: { confirm: 'Are you sure?' }%></td>
+
+    </tr>
+  <% end %>
+</table>
+
+
+
+<%= link_to 'Back to User List', users_path %> |*|
+<%= link_to 'Edit User', edit_user_path(@user) %>

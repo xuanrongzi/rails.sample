@@ -1,0 +1,48 @@
+[ 2015-08-03 15:53:19.4875 7891/7f4f2417d780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-03 15:53:19.4939 7894/7f79a56fa780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-03 15:53:19.4941 7894/7f79a56fa780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-03 15:53:19.4954 7894/7f79a56fa780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 7894
+[ 2015-08-03 15:53:19.5026 7899/7f1df8d53780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-03 15:53:19.5033 7899/7f1df8d53780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 7899
+2015/08/03 15:53:21 [error] 7913#0: *4 "/xrz/news/app/assets/stylesheets/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2015/08/03 15:53:25 [error] 7913#0: *5 "/xrz/news/app/assets/stylesheets/public/index.html" is not found (2: No such file or directory), client: 121.231.72.46, server: _, request: "GET / HTTP/1.1", host: "103.3.62.203:3000"
+2015/08/03 15:53:26 [error] 7913#0: *5 open() "/xrz/news/app/assets/stylesheets/public/favicon.ico" failed (2: No such file or directory), client: 121.231.72.46, server: _, request: "GET /favicon.ico HTTP/1.1", host: "103.3.62.203:3000", referrer: "http://103.3.62.203:3000/"
+2015/08/03 15:53:28 [error] 7913#0: *5 "/xrz/news/app/assets/stylesheets/public/index.html" is not found (2: No such file or directory), client: 121.231.72.46, server: _, request: "GET / HTTP/1.1", host: "103.3.62.203:3000"
+
+[ 2015-08-03 15:54:04.8422 7894/7f79a36ad700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-03 15:54:04.8423 7894/7f79a56fa780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-03 15:54:04.8425 7894/7f79a2eac700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-03 15:54:04.8425 7894/7f79a2eac700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-03 15:54:04.8428 7894/7f79a36ad700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-03 15:54:04.8429 7894/7f79a36ad700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-08-03 15:54:04.8443 7894/7f79a56fa780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+
+[ 2015-08-03 15:54:04.8509 7899/7f1df72fb700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-03 15:54:04.8510 7899/7f1df8d53780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-03 15:54:04.8512 7899/7f1df72fb700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-03 15:54:04.8512 7899/7f1df72fb700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-03 15:54:04.8514 7899/7f1df8d53780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished
+[ 2015-08-03 16:03:42.5834 8019/7fd0c9795780 age/Wat/Main.cpp:1274 ]: Starting Passenger watchdog...
+[ 2015-08-03 16:03:42.5897 8022/7f226abb7780 age/Cor/Main.cpp:957 ]: Starting Passenger core...
+[ 2015-08-03 16:03:42.5899 8022/7f226abb7780 age/Cor/Main.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-08-03 16:03:42.5912 8022/7f226abb7780 age/Cor/Main.cpp:707 ]: Passenger core online, PID 8022
+[ 2015-08-03 16:03:42.5983 8027/7f80ff984780 age/Ust/Main.cpp:430 ]: Starting Passenger UstRouter...
+[ 2015-08-03 16:03:42.5990 8027/7f80ff984780 age/Ust/Main.cpp:311 ]: Passenger UstRouter online, PID 8027
+2015/08/03 16:03:44 [error] 8041#0: *4 "/xrz/news/app/assets/stylesheets/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2015/08/03 16:03:48 [error] 8041#0: *5 "/xrz/news/app/assets/stylesheets/public/index.html" is not found (2: No such file or directory), client: 121.231.72.46, server: _, request: "GET / HTTP/1.1", host: "103.3.62.203:3000"
+2015/08/03 16:04:21 [error] 8041#0: *5 "/xrz/news/app/assets/stylesheets/public/users/index.html" is not found (2: No such file or directory), client: 121.231.72.46, server: _, request: "GET /users/ HTTP/1.1", host: "103.3.62.203:3000"
+2015/08/03 16:04:44 [error] 8041#0: *5 "/xrz/news/app/assets/stylesheets/public/users/1/index.html" is not found (2: No such file or directory), client: 121.231.72.46, server: _, request: "GET /users/1/ HTTP/1.1", host: "103.3.62.203:3000"
+
+[ 2015-08-03 16:05:47.0727 8022/7f2268b6a700 age/Cor/Main.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-03 16:05:47.0728 8022/7f226abb7780 age/Cor/Main.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-03 16:05:47.0729 8022/7f2263fff700 Ser/Server.h:752 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-08-03 16:05:47.0729 8022/7f2263fff700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-08-03 16:05:47.0731 8022/7f2268b6a700 Ser/Server.h:752 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-08-03 16:05:47.0731 8022/7f2268b6a700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-08-03 16:05:47.0741 8022/7f226abb7780 age/Cor/Main.cpp:942 ]: Passenger core shutdown finished
+
+[ 2015-08-03 16:05:47.0750 8027/7f80fdf2c700 age/Ust/Main.cpp:337 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-08-03 16:05:47.0750 8027/7f80ff984780 age/Ust/Main.cpp:399 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-08-03 16:05:47.0751 8027/7f80fdf2c700 Ser/Server.h:752 ]: [LoggerApiServer] Freed 0 spare client objects
+[ 2015-08-03 16:05:47.0751 8027/7f80fdf2c700 Ser/Server.h:443 ]: [LoggerApiServer] Shutdown finished
+[ 2015-08-03 16:05:47.0754 8027/7f80ff984780 age/Ust/Main.cpp:424 ]: Passenger UstRouter shutdown finished

@@ -1,0 +1,50 @@
+<head><link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css"></head>
+<body>
+
+<h1 align="center"><font color="blue" >Welcome#index</font></h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+<div class="list-group">
+  <a class="list-group-item" href="/users/new"><i class="fa fa-home fa-fw"></i> Home</a>
+  <a class="list-group-item" href="/users/"><i class="fa fa-book fa-fw"></i>Library</a>
+  <a class="list-group-item" href="/articles/new"><i class="fa fa-pencil fa-fw"></i>Applications</a>
+  <a class="list-group-item" href="/articles/"><i class="fa fa-cog fa-fw"></i>Settings</a>
+</div>
+
+<i class="fa fa-spinner fa-spin"></i>
+                        <i class="fa fa-circle-o-notch fa-spin fa-5x"></i>
+                        <i class="fa fa-refresh fa-spin fa-5x"></i>
+                        <i class="fa fa-cog fa-spin fa-5x"></i>
+                        <i class="fa fa-spinner fa-pulse fa-5x"></i>
+<table border="2">
+	<tr>
+		<td width="70%">
+			<table >
+				<tr>
+				<th>Blogs</th>
+				</tr>
+				<tr><td>
+				
+				<%= link_to 'Blog List', articles_path %></td></tr>
+				<tr><td><%= link_to 'New Blog', new_article_path %></td></tr>
+				<tr><td> </td></tr>
+				
+			</table>
+		</td>
+		<td width="30%">
+			<table >
+				<tr>
+					<th>Users</th>
+				</tr>	
+				<tr><td><%= link_to 'User List', users_path %></td></tr>
+				<tr><td><%= link_to 'User Sign Up', new_user_path %></td></tr>
+				<tr><td>New Feature Comming Soon</td></tr>
+				
+			</table>
+		</td>
+
+	</tr>
+</table>
+
+
+</body>
+
